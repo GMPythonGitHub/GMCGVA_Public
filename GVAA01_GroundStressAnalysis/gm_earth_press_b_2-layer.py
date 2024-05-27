@@ -1,4 +1,4 @@
-# gm_earth_press_b_2-layerr.py:: coded by Kinya MIURA 240428
+# gm_earth_press_b_2-layerr.py:: coded by Kinya MIURA 250428
 # --------------------------------------------------------
 print('*** ground stress analysis ***')
 print('   *** earth pressire ***')

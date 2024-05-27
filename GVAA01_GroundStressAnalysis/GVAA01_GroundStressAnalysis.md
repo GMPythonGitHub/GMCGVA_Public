@@ -25,7 +25,9 @@
 
 ### [地下水を有する多層地盤における応力解析プログラム](gm_earth_press_d_layers.py)
 
-### （準備中）[地下水を有する多層地盤における応力解析オブジェクト指向プログラム]()
+### [地下水を有する多層地盤における応力解析オブジェクト指向プログラム: GMEorsLayer](gm_class_eprs_ground/gm_class_eprs_a_layer.py)
+
+### [地下水を有する多層地盤における応力解析オブジェクト指向プログラム: GMEorsGround](gm_class_eprs_ground/gm_class_eprs_b_ground.py)
 
 
 

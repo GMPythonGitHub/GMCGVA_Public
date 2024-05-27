@@ -1,4 +1,4 @@
-# gm_earth_press_c_2-layerr.py:: coded by Kinya MIURA 240428
+# gm_earth_press_c_2-layerr.py:: coded by Kinya MIURA 250428
 # --------------------------------------------------------
 print('*** ground stress analysis ***')
 print('   *** earth pressire with ground water ***')
@@ -110,9 +110,9 @@ ax.hlines(0, 0., max(sigv+ppp)/1000, color='k', linewidth=.5)
 ax.set_xlabel('pressure, $\sigma_{v}$, $\sigma_{v}$, $p$ (kN/m$^2$)')
 ax.set_ylabel('depth, $z$ (m)')
 
-ax.plot(sigv/1000, zz, label='$\sigma_{v}\'$', color='C0')
+ax.plot(sigv/1000, zz, label='$\sigma_{v}\'$', color='C1')
 # ax.plot(sigh/1000, zz, label='$\sigma_{h}\'$', color='C1')
-ax.plot(ppp/1000, zz, label='$p$', color='C1')
+ax.plot(ppp/1000, zz, label='$p$', color='C0')
 ax.plot((sigv+ppp)/1000, zz, label='$\sigma_{v}$', color='C2', linestyle='--')
 # ax.plot((sigh+ppp)/1000, zz, label='$\sigma_{h}$', color='C1', linestyle='--')
 

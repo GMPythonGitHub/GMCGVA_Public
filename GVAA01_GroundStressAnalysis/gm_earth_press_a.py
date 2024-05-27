@@ -1,7 +1,7 @@
-# gm_earth_press_a.py:: coded by Kinya MIURA 240428
+# gm_earth_press_a.py:: coded by Kinya MIURA 250428
 # --------------------------------------------------------
 print('*** ground stress analysis ***')
-print('   *** earth pressire ***')
+print('   *** earth pressure ***')
 # --------------------------------------------------------
 print('### --- section_module: importing items from modules --- ###')
 from numpy import(array)
